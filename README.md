@@ -1,3 +1,6 @@
+# this readme is not complete. [Instead read BACKEND - LYRA README.md](github.com/akshay-abraham/Lyra)
+
+````
 # **ZIA - The Smart Student Companion** 🚀
 
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/akshay-abraham/zia?style=flat-square)
@@ -10,38 +13,38 @@
 
 ## 🌟 **Project Overview**
 
-**ZIA** is a **wearable AI-powered student companion band** that integrates **education assistance, health monitoring, social support**, and **parent-teacher engagement**.  
+**ZIA** is a **wearable AI-powered student companion band** that integrates **education assistance, health monitoring, social support**, and **parent-teacher engagement**.
 It is **designed for day-to-day student use**, promoting **learning, wellbeing, and safety**, without replacing teachers.
 
-> **Purpose:**  
-> - Provide AI-guided learning tailored to student style  
-> - Track daily health habits (hydration, menstrual cycles, posture)  
-> - Facilitate anonymous/named social reporting  
-> - Notify teachers of important student queries  
+> **Purpose:**
+> - Provide AI-guided learning tailored to student style
+> - Track daily health habits (hydration, menstrual cycles, posture)
+> - Facilitate anonymous/named social reporting
+> - Notify teachers of important student queries
 
 ---
 
 ## 🎯 **Key Features**
 
 ### 1️⃣ Education Assistant
-- Voice/text guidance for homework & studies  
-- Adaptive learning based on student curiosity  
-- Personalized hints & learning style insights  
-- Escalation of complex doubts to teacher notifications  
+- Voice/text guidance for homework & studies
+- Adaptive learning based on student curiosity
+- Personalized hints & learning style insights
+- Escalation of complex doubts to teacher notifications
 
 ### 2️⃣ Health & Habit Monitoring
-- Water intake reminders optimized per student  
-- Menstruation support & cycle reminders  
-- Posture/activity tracking with accelerometer  
+- Water intake reminders optimized per student
+- Menstruation support & cycle reminders
+- Posture/activity tracking with accelerometer
 
 ### 3️⃣ Social Support
-- Anonymous/named reporting system for bullying  
-- AI-guided emotional support & habit nudges  
-- Teacher alerts for immediate interventions  
+- Anonymous/named reporting system for bullying
+- AI-guided emotional support & habit nudges
+- Teacher alerts for immediate interventions
 
 ### 4️⃣ Parent App Integration
-- Daily monitoring of study habits and health  
-- Notifications for irregular trends or flagged events  
+- Daily monitoring of study habits and health
+- Notifications for irregular trends or flagged events
 
 ---
 
@@ -106,6 +109,7 @@ graph TD
 └── README.md
 ```
 
+````
 ### Example ESP32 Audio Capture Snippet
 
 ```cpp
@@ -122,8 +126,9 @@ void loop() {
       // Stream audio to cloud AI
   }
 }
-```
+````
 
+````
 ### Cloud AI Call Example (Python)
 
 ```python
@@ -137,10 +142,11 @@ def get_ai_response(student_text):
         messages=[{"role":"user", "content": student_text}]
     )
     return response.choices[0].message.content
-```
+````
 
 ---
 
+```
 ## 🔧 **Design Considerations**
 
 * Privacy-first: All queries encrypted, anonymous optional
@@ -162,3 +168,4 @@ def get_ai_response(student_text):
 
 ---
 
+```
